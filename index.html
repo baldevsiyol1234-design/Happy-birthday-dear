@@ -3,29 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday</title>
+  <title>Happy Birthday My Love ❤️</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Fixed Header -->
+  <!-- Confetti Canvas -->
+  <canvas id="confetti"></canvas>
+
+  <!-- Birthday Header -->
   <header>
-    <h1>Happy Birthday, My Love ❤️</h1>
-    <p>A little story — photo by photo</p>
+    <h1>Happy Birthday My Love ❤️</h1>
   </header>
 
-  <!-- Slideshow Container -->
-  <div class="slideshow-container">
-    <img src="images/1.jpg" class="slide active" />
-    <img src="images/2.jpg" class="slide" />
-    <img src="images/3.jpg" class="slide" />
-    <!-- add more images dynamically via JS -->
+  <!-- Slideshow -->
+  <div class="slideshow">
+    <img src="images/1.jpg" class="slide active">
+    <img src="images/2.jpg" class="slide">
+    <img src="images/3.jpg" class="slide">
+    <img src="images/4.jpg" class="slide">
+    <img src="images/5.jpg" class="slide">
+    <img src="images/6.jpg" class="slide">
+    <img src="images/7.jpg" class="slide">
+    <img src="images/8.jpg" class="slide">
+    <img src="images/9.jpg" class="slide">
+    <img src="images/10.jpg" class="slide">
+    <img src="images/11.jpg" class="slide">
+    <img src="images/12.jpg" class="slide">
+    <img src="images/13.jpg" class="slide">
+    <img src="images/14.jpg" class="slide">
+    <img src="images/15.jpg" class="slide">
+    <img src="images/16.jpg" class="slide">
+    <img src="images/17.jpg" class="slide">
+    <img src="images/18.jpg" class="slide">
+    <img src="images/19.jpg" class="slide">
+    <img src="images/20.jpg" class="slide">
+    <img src="images/21.jpg" class="slide">
+    <img src="images/22.jpg" class="slide">
+    <img src="images/23.jpg" class="slide">
+    <img src="images/24.jpg" class="slide">
+    <img src="images/25.jpg" class="slide">
+    <img src="images/26.jpg" class="slide">
+    <img src="images/27.jpg" class="slide">
+    <img src="images/28.jpg" class="slide">
+    <img src="images/29.jpg" class="slide">
+    <img src="images/30.jpg" class="slide">
   </div>
 
+  <!-- Caption -->
+  <div id="caption"></div>
+
   <!-- Background Music -->
-  <audio autoplay loop>
-    <source src="song.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+  <audio id="bg-music" src="music/song.mp3" autoplay loop></audio>
 
   <script src="script.js"></script>
 </body>
